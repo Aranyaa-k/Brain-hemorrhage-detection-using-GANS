@@ -3,11 +3,11 @@ import shutil
 from sklearn.model_selection import train_test_split
 
 # Set the path to your original folders
-original_images_folder = '/home/aranyaa/Project/Brain_Hemorrhage_Segmentation_Dataset/source_images/images_png'
-original_ground_truths_folder = '/home/aranyaa/Project/Brain_Hemorrhage_Segmentation_Dataset/source_images/ground_truth_png'
+original_images_folder = '/home/aranyaa/Project/source_images/images_png_not_normalized'
+original_ground_truths_folder = '/home/aranyaa/Project/source_images/ground_truths_png_not_normalized'
 
 # Set the path to the new folders for train, val, and test
-output_folder = '/home/aranyaa/Project/Brain_Hemorrhage_Segmentation_Dataset/dataset'
+output_folder = '/home/aranyaa/Project/dataset_not_normalized'
 train_folder = os.path.join(output_folder, 'train')
 val_folder = os.path.join(output_folder, 'val')
 test_folder = os.path.join(output_folder, 'test')
